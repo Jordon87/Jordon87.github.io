@@ -1,0 +1,632 @@
+/*default link style*/
+
+a:link , a:visited { font-weight : bold ; text-decoration:none      ; }
+a:hover, a:active  { font-weight : bold ; text-decoration:underline ; }
+
+.cbb-games   a:link , .cbb-games   a:visited { color : #9a0611 ; }
+.cbb-games   a:hover, .cbb-games   a:active  { color : #9a0611 ; }
+.cbb-songs   a:link , .cbb-songs   a:visited { color : #da3505 ; }
+.cbb-songs   a:hover, .cbb-songs   a:active  { color : #da3505 ; }
+.cbb-makes   a:link , .cbb-makes   a:visited { color : #0b7889 ; }
+.cbb-makes   a:hover, .cbb-makes   a:active  { color : #0b7889 ; }
+.cbb-stories a:link , .cbb-stories a:visited { color : #037e03 ; }
+.cbb-stories a:hover, .cbb-stories a:active  { color : #037e03 ; }
+.cbb-watch   a:link , .cbb-watch   a:visited { color : #b00a65 ; }
+.cbb-watch   a:hover, .cbb-watch   a:active  { color : #b00a65 ; }
+.cbb-gu   a:link , .cbb-gu   a:visited { color : #692CE6 ; }
+.cbb-gu   a:hover, .cbb-gu   a:active  { color : #692CE6 ; }
+
+
+p { line-height : 1.3em ; }
+
+/* cbeebies_first include styles */
+#cbb-first{
+    position:absolute;
+    top:13px;
+    left:14px;
+    z-index:101;
+    width:106px;
+    height:46px;
+}
+
+/* cbeebies_last include styles */
+div#cbb-last{
+    padding:47px 0 0 0;
+    margin:0;
+    line-height:1px;
+    height: 51px;
+    background:url(/web/20111216235620im_/http://www.bbc.co.uk/cbeebies/img/orig/day/footer_bg.jpg) left bottom no-repeat;
+    width:974px;
+}
+div#cbb-last a {
+    display:block;
+    float:left;
+    padding:0;
+    margin:0;
+}
+/* global layout styles */
+#blq-main {
+    padding:208px 0 0 0;
+    position:relative;
+}
+#cbb-banner {
+    position:absolute;
+    top:0;
+    left:0;
+    width:974px;
+    height:207px;
+}
+
+#cbb-footcharacter {
+    float:right;
+    position:relative;
+    top:-9px;
+        *top:-7px;
+        height:107px;
+        clear:both;
+        margin-bottom:-107px;
+}
+
+#cbb-banner-embed {float: left; width:806px; padding :0 0 0 5px; margin-top:1px;}
+#cbb-shows-embed {float: right; width: 287px;}
+/*#cbb-shows-swf {height:208px;position:relative; top: -23px;}*/
+
+#cbb-shows-swf {height:208px;position:absolute; top:0; left:0px; width:287px;}
+
+#blq-local-nav {
+    padding:58px 0 0 163px;
+    width:811px;
+    height:150px;
+}
+#cbb-nav-sections { 	height:149px;}
+#cbb-nav-sections li a, #cbb-nav-globals li a {cursor:pointer;}
+
+#cbb-nav-globals {
+    position:absolute;
+    top:0;
+    left:687px;
+    width:287px;
+    height:25px;
+}
+#cbb-nav-sections li, #cbb-nav-globals li{
+    display:block;
+    float:left;
+}
+#blq-content {  /* this element has blq-clearfix */
+    position:relative;
+    width:974px;
+    /*background:url(/web/20111216235620im_/http://www.bbc.co.uk/cbeebies/img/orig/day/transition_bg.gif) left top no-repeat;*/
+    margin: 0 0 17px 0;
+    z-index:100;
+}
+
+ul#cbb-nav-sections li a { display:block; text-align:center;}
+ul#cbb-nav-sections li a span { position:absolute; top:59px; display:block; height:149px;}
+
+li#cbb-ban-home {	width:84px; height:149px;}
+li#cbb-ban-home a  { padding:60px 0 0 0; width:84px; height:12px;}
+li#cbb-ban-home a span { left:168px; width:84px; }
+
+li#cbb-ban-games { width:92px; height:149px; }
+li#cbb-ban-games a  { padding:60px 0 0 0; width:92px; height:10px; }
+li#cbb-ban-games a span { left:251px; width:92px; }
+
+li#cbb-ban-songs { width:82px; height:149px; }
+li#cbb-ban-songs a  { padding:60px 0 0 0; width:82px; height:20px; }
+li#cbb-ban-songs a span { left:342px; width:82px; }
+
+li#cbb-ban-makes { width:90px; height:149px; }
+li#cbb-ban-makes a  { padding:60px 0 0 0; width:90px; height:40px;}
+li#cbb-ban-makes a span { left:424px; width:90px; }
+
+li#cbb-ban-stories { width:75px; height:149px;}
+li#cbb-ban-stories a  { height:40px; padding:60px 0 0; width:75px; }
+li#cbb-ban-stories a span { left:513px; width:75px;}
+
+li#cbb-ban-watch { width:96px; height:149px;}
+li#cbb-ban-watch a  {  padding:60px 0 0 0; width:96px; height:40px;}
+li#cbb-ban-watch a span { left:588px; width:99px;}
+
+.cbb-grownups-btn {cursor: pointer;}
+
+
+
+/*nav buttons*/
+#cbb-nav-radio {
+    width:127px;
+    height:23px;
+}
+#cbb-nav-radio a {
+    width:127px;
+    height:23px;
+    display:block;
+    padding:0 0 0 0;
+    position:relative;
+    left:0;
+    font-size:0.8em;
+}
+#cbb-nav-radio a span {
+    display:block;
+    width:127px;
+    height:23px;
+    position:absolute;
+    left:0px;
+    top:0px;
+}
+
+#cbb-nav-radio-nojs {
+    width:127px;
+    height:23px;
+}
+#cbb-nav-radio-nojs a {
+    width:127px;
+    height:23px;
+    display:block;
+    padding:0 0 0 0;
+    position:relative;
+    left:0;
+    font-size:0.8em;
+}
+#cbb-nav-radio-nojs a span {
+    display:block;
+    width:127px;
+    height:23px;
+    position:absolute;
+    left:0px;
+    top:0px;
+}
+
+#cbb-nav-gu {
+    width:117px;
+    height:23px;
+}
+
+#cbb-nav-gu a {
+    width:117px;
+    height:23px;
+    display:block;
+    padding:0 ;
+    position:relative;
+    left:4px;
+    font-size:0.8em;
+}
+#cbb-nav-gu a span {
+    display:block;
+    height:23px;
+    position:absolute;
+    left:0;
+    top:0px;
+    width:103px;
+}
+
+#cbb-nav-shows {
+    width:287px;
+    height:185px;
+}
+
+#cbb-nav-shows a {
+    width:220px;
+    height:149px;
+    display:block;
+    padding:50px 0 0 62px;
+    cursor:pointer;
+}
+#cbb-nav-shows a span {
+    display:block;
+    height:185px;
+    left:0;
+    position:absolute;
+    top:59px;
+    width:287px;
+}
+
+#cbb-sound-onoff
+{
+    left:255px;
+    position:absolute;
+    top:2px;
+}
+
+/*GU Info tool tips*/
+#cbb-mainpromo .cbb-grownups-wrapper {width:440px; overflow:hidden; clear:both;}
+
+.cbb-promo.cbb-grownups-wrapper { margin:5px 0 0 20px; width:180px;  clear:both;}
+.cbb-promocontent .cbb-grownups-wrapper { margin:0px 0 0 13px; width:180px;  clear:both;}
+.cbb-promo  .cbb-promocontent .cbb-grownups-wrapper { margin:5px 0 0 20px; width:187px; clear:both;}
+
+.cbb-grownups h3{margin:12px 0 0 19px !important; padding:0 !important;}
+.cbb-grownups h3 span{margin:-9px 0 0 0 !important; padding:0 !important;
+    display:block;
+    float:left;
+    height:22px;
+    width:30px;
+    background:url(/web/20111216235620im_/http://www.bbc.co.uk/cbeebies/img/icon/guicon_all.gif) 4px 0 no-repeat;
+}
+.cbb-grownups p{margin:3px 0 7px 31px !important; padding:0 !important; width:150px !important;}
+.cbb-grownups p.link{padding:0 !important;}
+.cbb-grownups p.link a{padding:0 0 2px 15px !important; margin:0 !important; position:static !important; height:auto !important; width:134px !important;}
+
+/*section page overrides*/
+#cbb-boardcontent .cbb-grownups h3, #cbb-promoboardcontent .cbb-grownups h3{ margin-left:10px !important; padding:0 0 15px 32px !important;}
+#cbb-boardcontent .cbb-grownups p, #cbb-promoboardcontent .cbb-grownups p{ width:144px !important;}
+#cbb-boardcontent .cbb-grownups p.link a, #cbb-promoboardcontent .cbb-grownups p.link a{ width:129px !important;}
+
+.cbb-games .cbb-promo .cbb-grownups h3.cbb-grownups-btn a:hover {color:#9a0611;}
+.cbb-makes .cbb-promo .cbb-grownups h3 a:hover {color:#0b7889;}
+.cbb-songs .cbb-promo .cbb-grownups h3 a:hover {color:#da3505;}
+.cbb-stories .cbb-promo .cbb-grownups h3 a:hover {color:#037e03;}
+.cbb-watch .cbb-promo .cbb-grownups h3 a:hover {color:#b00a65;}
+
+
+.cbb-games .cbb-grownups .cbb-grownups-wrapper p.link, .cbb-promo.cbb-games .cbb-promocontent .cbb-grownups-wrapper p.link  {	background:url(/web/20111216235620im_/http://www.bbc.co.uk/cbeebies/img/icon/a_games.gif) no-repeat 0 1px;}
+.cbb-makes .cbb-grownups .cbb-grownups-wrapper p.link, .cbb-promo.cbb-makes .cbb-promocontent .cbb-grownups-wrapper p.link  {	background:url(/web/20111216235620im_/http://www.bbc.co.uk/cbeebies/img/icon/a_makes.gif) no-repeat 0 1px;}
+.cbb-songs .cbb-grownups .cbb-grownups-wrapper p.link, .cbb-promo.cbb-songs .cbb-promocontent .cbb-grownups-wrapper p.link  {	background:url(/web/20111216235620im_/http://www.bbc.co.uk/cbeebies/img/icon/a_songs.gif) no-repeat 0 1px;}
+.cbb-stories .cbb-grownups .cbb-grownups-wrapper p.link, .cbb-promo.cbb-stories .cbb-promocontent .cbb-grownups-wrapper p.link  {	background:url(/web/20111216235620im_/http://www.bbc.co.uk/cbeebies/img/icon/a_stories.gif) no-repeat 0 1px;}
+.cbb-watch .cbb-grownups .cbb-grownups-wrapper p.link, .cbb-promo.cbb-watch .cbb-promocontent .cbb-grownups-wrapper p.link  {	background:url(/web/20111216235620im_/http://www.bbc.co.uk/cbeebies/img/icon/a_watch.gif) no-repeat 0 1px;}
+.cbb-gu .cbb-grownups .cbb-grownups-wrapper p.link, .cbb-promo.cbb-gu .cbb-promocontent .cbb-grownups-wrapper p.link  {	background:url(/web/20111216235620im_/http://www.bbc.co.uk/cbeebies/img/icon/a_gu.gif) no-repeat 0 1px;}
+
+
+#blq-main .cbb-promo .cbb-promocontent .cbb-grownups-wrapper p.link a { font-weight:bold; color:#000; text-decoration:none; position:inherit;  /*padding-bottom:2px;*/}
+#cbb-mainpromo .cbb-grownups-wrapper p.link a { font-weight:bold; color:#000;}
+p.link a:hover{text-decoration:underline !important;}
+
+.cbb-promo.cbb-games .cbb-grownups-wrapper, .cbb-main-content .cbb-games .cbb-grownups-wrapper, .cbb-games .cbb-promocontent .cbb-grownups-wrapper { background:#fbdfe0; border-bottom:1px solid #e7b3b6; border-top:1px solid #e7b3b6;}
+.cbb-promo.cbb-makes .cbb-grownups-wrapper, .cbb-main-content .cbb-makes .cbb-grownups-wrapper, .cbb-makes .cbb-promocontent .cbb-grownups-wrapper { background:#e0f8fb; border-bottom:1px solid #b6dee4; border-top:1px solid #b6dee4;}
+.cbb-promo.cbb-songs .cbb-grownups-wrapper, .cbb-main-content .cbb-songs .cbb-grownups-wrapper, .cbb-songs .cbb-promocontent .cbb-grownups-wrapper { background:#feeadc; border-bottom:1px solid #f7c6b1; border-top:1px solid #f7c6b1;}
+.cbb-promo.cbb-stories .cbb-grownups-wrapper, .cbb-main-content .cbb-stories .cbb-grownups-wrapper, .cbb-stories .cbb-promocontent .cbb-grownups-wrapper { background:#d9f7d9; border-bottom:1px solid #aedfae; border-top:1px solid #aedfae;}
+.cbb-promo.cbb-watch .cbb-grownups-wrapper, .cbb-main-content .cbb-watch .cbb-grownups-wrapper, .cbb-watch .cbb-promocontent .cbb-grownups-wrapper  { background:#fadaeb; border-bottom:1px solid #ebb0d0; border-top:1px solid #ebb0d0;}
+.cbb-promo.cbb-gu .cbb-grownups-wrapper, .cbb-main-content .cbb-gu .cbb-grownups-wrapper, .cbb-gu .cbb-promocontent .cbb-grownups-wrapper  { background:#dfd3f7; border-bottom:1px solid #692ce6; border-top:1px solid #692ce6;}
+
+/*javascript roll over */
+.cbb-games .btn-mouse-over {color: #9a0611; text-decoration:underline;}
+.cbb-songs .btn-mouse-over {color: #da3505; text-decoration:underline;}
+.cbb-makes .btn-mouse-over {color: #0b7889; text-decoration:underline;}
+.cbb-stories .btn-mouse-over {color: #037e03; text-decoration:underline;}
+.cbb-watch .btn-mouse-over {color: #b00a65; text-decoration:underline;}
+.cbb-grownups .btn-mouse-over {color: #b00a65; text-decoration:underline;}
+
+/*IMG BORDER rollovers*/
+.cbb-games .cbb-promocontent a.cbb-tp-img img,
+.cbb-games #cbb-themepage ul li a img,
+.cbb-promo.cbb-games .cbb-promocontent  a img,
+#cbb-home-content #cbb-mainpromo.cbb-games .cbb-mainpromo-content a img,
+.cbb-games #cbb-itemlist li a img
+{
+    border : 1px solid #9a0611 ;
+}
+
+.cbb-games .cbb-promocontent a:hover.cbb-tp-img img,
+.cbb-games #cbb-themepage ul li a:hover img,
+.cbb-promo.cbb-games .cbb-promocontent a:hover img,
+#cbb-home-content #cbb-mainpromo.cbb-games .cbb-mainpromo-content a:hover img,
+.cbb-games #cbb-itemlist li a:hover img
+{
+    border : 1px solid #e12732 ;
+}
+
+.cbb-makes .cbb-promocontent a.cbb-tp-img img,
+.cbb-makes #cbb-themepage ul li a img,
+.cbb-promo.cbb-makes .cbb-promocontent  a img,
+#cbb-home-content #cbb-mainpromo.cbb-makes .cbb-mainpromo-content a img,
+.cbb-makes #cbb-itemlist li a img
+{
+    border : 1px solid #0b7889 ;
+}
+
+.cbb-makes .cbb-promocontent a:hover.cbb-tp-img img,
+.cbb-makes #cbb-themepage ul li a:hover img,
+.cbb-promo.cbb-makes .cbb-promocontent  a:hover img,
+#cbb-home-content #cbb-mainpromo.cbb-makes .cbb-mainpromo-content a:hover img,
+.cbb-makes #cbb-itemlist li a:hover img
+{
+    border : 1px solid #2ccee6 ;
+}
+
+.cbb-songs .cbb-promocontent a.cbb-tp-img img,
+.cbb-songs #cbb-themepage ul li a img,
+.cbb-promo.cbb-songs .cbb-promocontent a img,
+#cbb-home-content #cbb-mainpromo.cbb-songs .cbb-mainpromo-content a img,
+.cbb-songs #cbb-itemlist li a img
+{
+    border : 1px solid #da3505 ;
+}
+
+.cbb-songs .cbb-promocontent a:hover.cbb-tp-img img,
+.cbb-songs #cbb-themepage ul li a:hover img,
+.cbb-promo.cbb-songs .cbb-promocontent  a:hover img,
+#cbb-home-content #cbb-mainpromo.cbb-songs .cbb-mainpromo-content a:hover img,
+.cbb-songs #cbb-itemlist li a:hover img
+{
+    border : 1px solid #f67414 ;
+}
+
+.cbb-stories .cbb-promocontent a.cbb-tp-img img,
+.cbb-stories #cbb-themepage ul li a img,
+.cbb-promo.cbb-stories .cbb-promocontent  a img,
+#cbb-home-content #cbb-mainpromo.cbb-stories .cbb-mainpromo-content a img,
+.cbb-stories #cbb-itemlist li a img
+{
+    border : 1px solid #037e03 ;
+}
+
+.cbb-stories .cbb-promocontent a:hover.cbb-tp-img img,
+.cbb-stories #cbb-themepage ul li a:hover img,
+.cbb-promo.cbb-stories .cbb-promocontent  a:hover img,
+#cbb-home-content #cbb-mainpromo.cbb-stories .cbb-mainpromo-content a:hover img,
+.cbb-stories #cbb-itemlist li a:hover img
+{
+    border : 1px solid #00cb00 ;
+}
+
+.cbb-watch .cbb-promocontent a.cbb-tp-img img,
+.cbb-watch #cbb-themepage ul li a img,
+.cbb-promo.cbb-watch .cbb-promocontent  a img,
+#cbb-home-content #cbb-mainpromo.cbb-watch .cbb-mainpromo-content a img,
+.cbb-watch #cbb-itemlist li a img
+{
+    border : 1px solid #b00a65 ;
+}
+
+.cbb-watch .cbb-promocontent a:hover.cbb-tp-img img,
+.cbb-watch #cbb-themepage ul li a:hover img,
+.cbb-promo.cbb-watch .cbb-promocontent  a:hover img,
+#cbb-home-content #cbb-mainpromo.cbb-watch .cbb-mainpromo-content a:hover img,
+.cbb-watch #cbb-itemlist li a:hover img
+{
+    border : 1px solid #dd047b ;
+}
+
+.cbb-gu .cbb-promocontent a.cbb-tp-img img,
+.cbb-gu #cbb-themepage ul li a img,
+.cbb-promo.cbb-gu .cbb-promocontent  a img,
+#cbb-home-content #cbb-mainpromo.cbb-gu .cbb-mainpromo-content a img,
+.cbb-gu #cbb-itemlist li a img
+{
+    border : 1px solid #3e1591 ;
+}
+
+
+.cbb-gu .cbb-promocontent a:hover.cbb-tp-img img,
+.cbb-gu #cbb-themepage ul li a:hover img,
+.cbb-promo.cbb-gu .cbb-promocontent  a:hover img,
+#cbb-home-content #cbb-mainpromo.cbb-gu .cbb-mainpromo-content a:hover img,
+.cbb-gu #cbb-itemlist li a:hover img
+{
+border : 1px solid #692ce6 ;
+}
+
+
+
+.cbb-games   #cbb-itemlist li a { color : #9a0611 ; }
+.cbb-makes   #cbb-itemlist li a { color : #0b7889 ; }
+.cbb-songs   #cbb-itemlist li a { color : #da3505 ; }
+.cbb-stories #cbb-itemlist li a { color : #037e03 ; }
+.cbb-watch   #cbb-itemlist li a { color : #b00a65 ; }
+
+/* Character brand logo, contextual back and context */
+#cbb-charactericon, #cbb-contextualback, #cbb-context { width:130px; display:block; left:12px; top:6px; position:relative;}
+#cbb-charactericon a, #cbb-contextualback a, #cbb-context a { width:144px; overflow:hidden; display:block; position:relative; cursor:pointer;}
+#cbb-charactericon a:hover, #cbb-charactericon a:active, #cbb-contextualback a:hover, #cbb-contextualback a:active, #cbb-context a:hover, #cbb-context a:active{background:transparent;}
+#cbb-charactericon img, #cbb-contextualback img, #cbb-context img{ width:130px; height:99px; position:absolute; z-index:10; top:2px; left:8px;}
+
+
+/*#cbb-charactericon a span, #cbb-contextualback a span, #cbb-context a span.img { background: url(/web/20111216235620im_/http://www.bbc.co.uk/cbeebies/img/bg_ch_sub_rhs_sprite.png) no-repeat 0 0; position:relative; display:block; width:288px; height:210px; left:0; top:0;}*/
+.cbb-brand #cbb-charactericon a span, .cbb-brand #cbb-contextualback a span, .cbb-brand #cbb-context a span.img ,
+.cbb-home #cbb-charactericon a span, .cbb-home #cbb-contextualback a span, .cbb-home #cbb-context a span.img ,
+.cbb-games #cbb-charactericon a span, .cbb-games #cbb-contextualback a span, .cbb-games #cbb-context a span.img { background: url(/web/20111216235620im_/http://www.bbc.co.uk/cbeebies/img/bg_ci_rhs_more_games.png) no-repeat 0 0; position:relative; display:block; width:288px; height:210px; left:0; top:0;}
+.cbb-makes #cbb-charactericon a span, .cbb-makes #cbb-contextualback a span, .cbb-makes #cbb-context a span.img { background: url(/web/20111216235620im_/http://www.bbc.co.uk/cbeebies/img/bg_ci_rhs_more_makes.png) no-repeat 0 0; position:relative; display:block; width:288px; height:210px; left:0; top:0;}
+.cbb-songs #cbb-charactericon a span, .cbb-songs #cbb-contextualback a span, .cbb-songs  #cbb-context a span.img { background: url(/web/20111216235620im_/http://www.bbc.co.uk/cbeebies/img/bg_ci_rhs_more_songs.png) no-repeat 0 0; position:relative; display:block; width:288px; height:210px; left:0; top:0;}
+.cbb-stories #cbb-charactericon a span, .cbb-stories #cbb-contextualback a span, .cbb-stories #cbb-context a span.img { background: url(/web/20111216235620im_/http://www.bbc.co.uk/cbeebies/img/bg_ci_rhs_more_stories.png) no-repeat 0 0; position:relative; display:block; width:288px; height:210px; left:0; top:0;}
+.cbb-watch #cbb-charactericon a span, .cbb-watch #cbb-contextualback a span, .cbb-watch #cbb-context a span.img { background: url(/web/20111216235620im_/http://www.bbc.co.uk/cbeebies/img/bg_ci_rhs_more_watch.png) no-repeat 0 0; position:relative; display:block; width:288px; height:210px; left:0; top:0;}
+
+#cbb-charactericon a:hover span, #cbb-contextualback a:hover span, #cbb-context a:hover span.img {left:-144px;}
+
+#cbb-charactericon a, #cbb-charactericon {height:110px;}
+#cbb-contextualback a , #cbb-contextualback {height:110px; margin-bottom:-4px;}
+#cbb-contextualback a {position:relative; top:-4px;}
+#cbb-context a, #cbb-context { height:93px;}
+#cbb-csp-related #cbb-context a:hover span.img, #cbb-csp-related #cbb-context a span.img, #cbb-ci-related #cbb-context a:hover span.img, #cbb-ci-related #cbb-context a span.img {/*top:-143px ;*/ top:-134px;}
+#cbb-context a:hover span, #cbb-context a span.text {position:relative; display:block; top:20px; left:36px;}
+
+/*iplayer-msg*/
+.glowNoMask.cbb-iplayer-msg {
+    width: 514px;
+    height: 325px;
+    background: transparent none no-repeat;
+    color: #000;
+}
+.cbb-iplayer-lb {
+    width: 514px;
+    height: 325px;
+    background: transparent url(/web/20111216235620im_/http://www.bbc.co.uk/cbeebies/img/cbb_iplayer_lb.gif) no-repeat;
+    color: #000;
+}
+.cbb-iplayer-lb h2 {
+    position: relative;
+    top: 82px;
+    left: 24px;
+}
+.cbb-iplayer-lb h2 span {
+    position: absolute;
+    display: block;
+    width: 424px;
+    height: 30px;
+    padding-left: 24px;
+    top: -10px;
+    left: 0;
+    background: transparent url(/web/20111216235620im_/http://www.bbc.co.uk/cbeebies/img/cbb_iplayer_lb_title.gif) no-repeat;
+}
+.cbb-iplayer-lb p {
+    position: relative;
+    top: 92px;
+    clear: both;
+    padding: 0 24px;
+    font-size: 1.3em;
+}
+.cbb-radioplayer-lb {
+    width: 734px;
+    height: 560px;
+    color: #000;
+}
+
+a#iplayer_no {
+    position: relative;
+    display: block;
+    float: left;
+    overflow: hidden;
+    top: 30px;
+    right:0;
+    width: 213px;
+    height: 28px;
+    padding-left: 5px;
+}
+a#iplayer_yes {
+    position: relative;
+    float: right;
+    display: block;
+    overflow: hidden;
+    top: 30px;
+    width: 208px;
+    height: 28px;
+    padding-left: 5px;
+}
+a#iplayer_no span {
+    position: absolute;
+    display: block;
+    width: 213px;
+    height: 28px;
+    top: 0;
+    left: 0;
+    background: transparent url(/web/20111216235620im_/http://www.bbc.co.uk/cbeebies/img/cbb_iplayer_back.gif) top left no-repeat;
+}
+a#iplayer_yes span {
+    position: absolute;
+    display: block;
+    width: 208px;
+    height: 28px;
+    top:0;
+    left: 0;
+    background: transparent url(/web/20111216235620im_/http://www.bbc.co.uk/cbeebies/img/cbb_iplayer_continue.gif) top left no-repeat;
+}
+a#iplayer_no:hover span {background-position: -213px 0;}
+a#iplayer_yes:hover span {background-position: -208px 0;}
+.cbb-iplayer-lb .customTemplate-bottom a.panel-close {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    height: 34px;
+    width: 103px;
+    left: 372px;
+    top: 3px;
+}
+.cbb-iplayer-lb .customTemplate-bottom a.panel-close span {
+    position: absolute;
+    display: block;
+    height: 34px;
+    width: 103px;
+    top: -5px;
+    left: 0;
+    background: transparent url(/web/20111216235620im_/http://www.bbc.co.uk/cbeebies/img/cbb_iplayer_lb_close.gif) top left no-repeat;
+}
+.cbb-iplayer-lb form {padding: 0; margin: 0;}
+.cbb-iplayer-lb form p {padding: 0; margin: 0;position:relative; top: 140px; left: 24px;}
+.cbb-iplayer-lb form input {padding: 0; margin: 0;}
+.cbb-iplayer-lb .customTemplate-bottom {
+    position: absolute;
+    background: transparent url(/web/20111216235620im_/http://www.bbc.co.uk/cbeebies/img/cbb_iplayer_lb_icon.gif) top left no-repeat;
+    width: 514px;
+    height: 49px;
+    top: 10px;
+    left: 20px;
+}
+.cbb-iplayer-lb p.grownups-link {
+    position: relative;
+    padding-bottom: 10px;
+    margin-left: 24px;
+    top: 162px;
+    padding-left: 0;
+    background: transparent url(/web/20111216235620im_/http://www.bbc.co.uk/cbeebies/img/lb/icon_gu.gif) 0 0 no-repeat;
+}
+.cbb-iplayer-lb p.grownups-link a {
+    position: relative;
+    left: 45px;
+    display: block;
+    padding: 10px 0 0 0;
+    margin: 0;
+}
+
+/*end*/
+#cbb-flashsplash .cbb-text-overlay noscript a { color : #692ce6 ; }
+
+#cbb-flashsplash .cbb-text-overlay noscript h2
+{
+    font-size     : 200% ;
+    margin-bottom : 20px ;
+}
+
+#cbb-flashsplash .cbb-text-overlay
+{
+    left       : 221px    ;
+    position   : absolute ;
+    text-align : center   ;
+    top        : 68px     ;
+    width      : 285px    ;
+}
+
+
+
+
+
+/*utilities*/
+html body * span.clear, html body * div.clear, html body * li.clear, html body * dd.clear{background: none; border: 0; clear: both; display: block; float: none; font-size: 0; list-style: none; margin: 0; padding: 0; overflow: hidden; visibility: hidden; width: 0; height: 0;}
+
+#cbb-clp-related  p.cbb-last-on-p {
+	margin:0;
+	padding:0;}
+	
+#cbb-iplayerlink {
+display:block;
+height:14px;
+position:relative;
+padding:10px 0 25px 0;
+}
+
+.ist-b a  {
+background:url("/web/20111216235620im_/http://www.bbc.co.uk/cbeebies/img/iplayer_watchnow.gif") no-repeat scroll 0 0 transparent;
+height:14px;
+padding:5px 0 10px 0;
+position:absolute;
+width:104px;
+}
+
+
+
+.ist-b a span.ist-download {
+display:inline-block;
+height:0;
+overflow:hidden;
+position:absolute;
+width:0;
+}
+
+/*
+     FILE ARCHIVED ON 23:56:20 Dec 16, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 02:34:15 Apr 07, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  RedisCDXSource: 2.011
+  exclusion.robots: 0.474
+  CDXLines.iter: 21.323 (3)
+  exclusion.robots.policy: 0.405
+  PetaboxLoader3.datanode: 116.114 (5)
+  captures_list: 175.011
+  LoadShardBlock: 129.977 (3)
+  esindex: 0.016
+  load_resource: 121.663 (2)
+  PetaboxLoader3.resolve: 116.21 (3)
+*/
