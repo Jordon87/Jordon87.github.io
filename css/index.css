@@ -1,11 +1,10 @@
 html, body {
     color: white;
     font-family: "Determination";
-    font-weight: normal;
 }
 
 h1, h2 {
-font-weight: normal;
+    font-weight: normal;
 }
 
 @font-face
