@@ -8,8 +8,8 @@ html, body {
 @font-face
 {
     font-family: 'determinationmonoweb-webfont';
-  src: url('determinationmonoweb-webfont.eot');
-      url('determinationmonoweb-webfont.eot?#') format('embedded-opentype'),
-      url('determinationmonoweb-webfont.woff') format('woff'),
-      url('determinationmonoweb-webfont.ttf') format('truetype');
+  src: url('css/determinationmonoweb-webfont.eot');
+      url('css/determinationmonoweb-webfont.eot?#') format('embedded-opentype'),
+      url('css/determinationmonoweb-webfont.woff') format('woff'),
+      url('css/determinationmonoweb-webfont.ttf') format('truetype');
 }
