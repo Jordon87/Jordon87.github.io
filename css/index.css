@@ -1,6 +1,7 @@
 html, body {
     color: white;
     font-family: "Determination";
+    font-weight: normal;
 }
 
 @font-face
