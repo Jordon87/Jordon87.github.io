@@ -1,5 +1,10 @@
 @import url("fonts.css");
 
+html, body {
+    color: white;
+    font-family: "determinationmonoweb-webfont"
+}
+
 @font-face
 {
     font-family: 'determinationmonoweb-webfont';
