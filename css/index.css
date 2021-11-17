@@ -7,8 +7,5 @@ html, body {
 
 @font-face {
     font-family: 'determinationmonoweb-webfont';
-     src: url('css/determinationmonoweb-webfont.eot');
-     src: url('css/determinationmonoweb-webfont.eot?#') format('embedded-opentype'),
-     src: url('css/determinationmonoweb-webfont.woff') format('woff'),
-     src: url('css/determinationmonoweb-webfont.ttf') format('truetype');
+    src: url('css/determinationmonoweb-webfont.woff') format('woff');
 }
