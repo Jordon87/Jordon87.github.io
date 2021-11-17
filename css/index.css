@@ -5,7 +5,11 @@ html, body {
     font-family: "determinationmonoweb-webfont";
 }
 
-@font-face {
-    font-family: 'determinationmonoweb-webfont';
-    src: url('css/determinationmonoweb-webfont.woff') format('woff');
+@font-face
+{
+    font-family: 'determinationsansweb-webfont';
+  src: url('determinationsansweb-webfont.eot');
+      url('determinationsansweb-webfont.eot?#') format('embedded-opentype'),
+      url('determinationsansweb-webfont.woff') format('woff'),
+      url('determinationsansweb-webfont.ttf') format('truetype');
 }
