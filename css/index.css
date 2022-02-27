@@ -13,6 +13,12 @@ h1, h2, h3, h4, h5, h6 {
     src: url('determinationmonoweb-webfont.woff') format('woff');
 }
 
+@font-face
+{
+    font-family: 'Friction';
+    src: url('Friction Free Style.ttf') format('tff');
+}
+
 hr.solid {
   border-top: 3px solid #bbb;
 }
